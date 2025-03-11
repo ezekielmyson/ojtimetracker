@@ -1,0 +1,100 @@
+:root {
+  font-size: 10px;
+  --maingreen: #b4fa7a;
+  --greentwo: #5ece14;
+  --grey: #1d1d1d;
+  --white: #ffffff;
+  --lightgrey: #e9e9e9;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 0 rgba(0, 99, 41, 0.7);
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(../assets/images/bg_carbon.webp);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+}
+.index-header-container {
+  width: 100%;
+  height: 75px;
+  background-color: var(--grey);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--maingreen);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.index-header-profile-container .index-header-profile-container-label {
+  display: inline-block;
+  color: var(--white);
+}
+
+.index-header-profile-container {
+    margin-right: 2rem;
+    color: var(--grey);
+    font-size: 1.6rem;
+}
+
+.index-header-profile-container .loggedin-user {
+    display: inline-block;
+    padding: 2rem 0;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--greentwo);
+}
+
+.index-header-profile-container .loggedin-user:last-child {
+  padding-left: 2rem;
+  color: var(--greentwo);
+  text-transform: uppercase;
+}
+
+.index-header-profile-container .logoutbtn {
+  padding-left: 2rem;
+  color: var(--greentwo);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  border-left: 1px dashed var(--white);
+  margin-left: 2rem ;
+}
+
+.index-header-profile-container .logoutbtn:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-left: 2rem;
+  color: var(--white);
+  font-weight: bold;
+}
+
+/* Footer CSS */
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  background-color: var(--grey);
+  border-top: 1px solid var(--maingreen);
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5);
+  padding-left: 2rem;
+}
+
+footer p {
+  color: var(--white);
+  font-size: 1.4rem;
+  line-height: 3.4;
+  letter-spacing: 0.1rem;
+}
