@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include 'includes/session.inc.php';
 include 'includes/general.inc.php';
@@ -33,8 +33,7 @@ if (isUserLoggedin()) {
             <div class="index-login-form">
                 <p class="index-login-title">Login Information</p>
                 <div class="index-login-title-border-bottom"></div>
-                <form action="includes/login.inc.php" method="post">
-                    <label for="email">Email</label>
+                <form <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required>
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" placeholder="Password" required>
